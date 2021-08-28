@@ -1,6 +1,6 @@
 {
   "name": "easy-ref-merge",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "easy ref merge is a react/react-native package that helps you to merge more than one reference and inject them to the same component",
   "main": "index.js",
   "scripts": {
