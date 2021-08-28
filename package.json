@@ -1,0 +1,28 @@
+{
+  "name": "easy-ref-merge",
+  "version": "1.0.0",
+  "description": "easy ref merge is a react/react-native package that helps you to merge more than one reference and inject them to the same component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hossam-Elgzeery/easy-ref-merge.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "easy",
+    "merge",
+    "ref",
+    "references",
+    "reference"
+  ],
+  "author": "Hossam.Elgzeery@live.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hossam-Elgzeery/easy-ref-merge/issues"
+  },
+  "homepage": "https://github.com/Hossam-Elgzeery/easy-ref-merge#readme"
+}
