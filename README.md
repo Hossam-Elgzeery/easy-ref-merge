@@ -20,7 +20,7 @@
 
 # Description
 
-easy ref merge is a react/react-native package that helps you to merge more than one reference and inject them to the same component.
+easy ref merge is a react/react-native package that helps you to merge more than one reference and inject them into the same component.
 
 # Installation
 
@@ -61,15 +61,13 @@ const OuterWrapper = () => {
 **./InnerWrapper.js**
 
 ```javascript
-import React from 'react';
-import {Text} from 'react-native'
+import React from "react";
+import { Text } from "react-native";
 import refsMerge from "easy-ref-merge";
-const InnerWrapper=React.forwardRef((props, ref)=>
-{
-  const localRef=//a reference generated for special purpose
-  return <Text ref={refsMerge(localRef,ref)}>Easy Ref Merge</Text>
-},[]);
-
+const InnerWrapper = React.forwardRef((props, ref) => {
+  const localRef = useRef(/*a reference generated for special purpose*/);
+  return <Text ref={refsMerge(localRef, ref)}>Easy Ref Merge</Text>;
+}, []);
 ```
 
 # Why easy-ref-merge ?
